@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     'apps.users',
     'apps.services',
     'apps.portfolio',
+    'apps.blog',
     'rest_framework_simplejwt',
     'django_filters',
 ]

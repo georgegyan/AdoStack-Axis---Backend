@@ -17,6 +17,10 @@ urlpatterns = [
         'api/portfolio/',
         include('apps.portfolio.urls')
     ),
+    path(
+        'api/blog/',
+        include('apps.blog.urls')
+    ),
 ]
 
 urlpatterns += static(
