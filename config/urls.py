@@ -9,7 +9,10 @@ urlpatterns = [
         'api/users/',
         include('apps.users.urls')
     ),
-
+    path(
+    'api/services/',
+    include('apps.services.urls')
+),
 ]
 
 urlpatterns += static(
