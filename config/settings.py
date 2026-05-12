@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     'apps.services',
     'apps.portfolio',
     'apps.blog',
+    'apps.contact',
     'rest_framework_simplejwt',
     'django_filters',
 ]

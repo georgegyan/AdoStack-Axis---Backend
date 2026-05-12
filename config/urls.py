@@ -21,6 +21,11 @@ urlpatterns = [
         'api/blog/',
         include('apps.blog.urls')
     ),
+    path(
+        'api/contact/',
+        include('apps.contact.urls')
+    ),
+
 ]
 
 urlpatterns += static(
