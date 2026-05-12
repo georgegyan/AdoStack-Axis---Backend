@@ -12,7 +12,11 @@ urlpatterns = [
     path(
     'api/services/',
     include('apps.services.urls')
-),
+    ),
+    path(
+        'api/portfolio/',
+        include('apps.portfolio.urls')
+    ),
 ]
 
 urlpatterns += static(

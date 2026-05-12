@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'apps.users',
     'apps.services',
+    'apps.portfolio',
     'rest_framework_simplejwt',
     'django_filters',
 ]
